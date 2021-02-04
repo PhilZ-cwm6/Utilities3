@@ -293,7 +293,7 @@ public class MessageDialogFragment extends DialogFragment {
         TextView msg_text=(TextView)mDialog.findViewById(R.id.common_dialog_msg);
         msg_text.setVisibility(TextView.GONE);
         mCustomTextView=(NonWordwrapTextView)mDialog.findViewById(R.id.common_dialog_custom_text_view);
-        mCustomTextView.setWordWrapEnabled(mWordWrap);
+//        mCustomTextView.setWordWrapEnabled(mWordWrap);
 //        mCustomTextView.setBackgroundColor(Color.DKGRAY);
 
 //        mCustomTextView.setTextColor(Color.LTGRAY);
